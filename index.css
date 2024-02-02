@@ -4,6 +4,42 @@
     margin: 1rem 0rem;
 }
 
+body {
+    background-color: black;
+}
+
 h1 {
     font-family: Honk;
+
+}
+
+#user, #comp {
+    font-family: none;
+}
+
+h2,h3 {
+    color: white;
+    font-family: Roboto;
+}
+
+button {
+    border-radius: 1rem;
+    background-color: black;
+    font-size: 2rem;
+    border: 1px solid white;
+    margin: 1rem;
+    padding: 1rem
+}
+
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    background-color: gray;
+    padding: 15px;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 2rem;
 }
