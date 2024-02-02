@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
     <title>Rock Paper Scissors!</title>
 </head>
 <body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <h3>Can you win against the computer?</h3>
+
+    <div>
+        <button onclick="letsPlay('✊')">✊</button>
+        <button onClick="letsPlay('✋')">✋</button>
+        <button onclick="letsPlay('✌️')">✌️</button>
+    </div>
+
+    <div>
+        <h2>You chose:<span id="user"></span></h2>
+        <h2>The computer chose:<span id="comp"></span></h2>
+        <p id="winner"></p>
+    </div>
     
 </body>
 </html>
